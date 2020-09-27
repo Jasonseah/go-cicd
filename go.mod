@@ -1,3 +1,3 @@
-module cicd.jasonseah.com
+module cicdtest
 
 go 1.14
