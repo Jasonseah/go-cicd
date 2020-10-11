@@ -1,7 +1,7 @@
 package hello
 
 import (
-	"cicdtest/pkg/github-action/hello"
+	"go_ci_cd/pkg/github-action/hello"
 	"testing"
 )
 

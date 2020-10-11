@@ -1,8 +1,8 @@
-package go_ci_cd
+package main
 
 import (
-	"cicdtest/pkg/github-action/hello"
 	"fmt"
+	"go_ci_cd/pkg/github-action/hello"
 )
 
 func main() {
