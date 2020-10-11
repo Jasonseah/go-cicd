@@ -26,12 +26,12 @@ func handleRequests() {
 	// add our articles route and map it to our
 	// returnAllArticles function like so
 	http.HandleFunc("/articles", returnAllArticles)
-	log.Fatal(http.ListenAndServe(":10000", nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 func returnAllArticles(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("Endpoint Hit: returnAllArticles")
-	
+
 	json.NewEncoder(w).Encode(Articles)
 }
 
